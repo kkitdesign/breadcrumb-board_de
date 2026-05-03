@@ -1,30 +1,30 @@
-# Instructions for Breadcrumb-Boards
+# Anweisungen für Breadcrumb-Boards
 
-## Ordering from JLCPCB
+## Bestellung bei JLCPCB
 
-Visit [JLCPCB.com](https://jlcpcb.com/) or a manufacturer of your choice (Instructions should work almost identically).
+Besuche [JLCPCB.com](https://jlcpcb.com/) oder einen Hersteller deiner Wahl (die Anweisungen sollten nahezu identisch funktionieren).
 
-Navigate to **Products** → **FR4-PCBs** → **Get Instant Quote**
+Navigiere zu **Products** → **FR4-PCBs** → **Get Instant Quote**
 
-Upload the needed Gerber-Files as .zip and wait until the upload is completed, now you should see a preview of the uploaded PCBs
+Lade die benötigten Gerber-Dateien als .zip hoch und warte, bis der Upload abgeschlossen ist. Nun solltest du eine Vorschau der hochgeladenen PCBs sehen.
 
-### Settings
+### Einstellungen
 
-The first few settings should be set automatically, check these because errors can occur:
+Die ersten Einstellungen sollten automatisch gesetzt werden. Überprüfe diese, da Fehler auftreten können:
 - **Base Material:** FR-4
 - **Layers:** 2
-- **Dimensions:** should be set automatically (if you are not sure, check the PCB dimensions in [mechanical](https://github.com/kkitdesign/breadcrumb-board/tree/main/mechanical))
-- **PCB Qty:** Enter your needed quantity (*Note:* the more PCBs you order the cheaper they get per Unit)
+- **Dimensions:** sollten automatisch gesetzt werden (falls du dir nicht sicher bist, überprüfe die PCB-Abmessungen unter [mechanical](https://github.com/kkitdesign/breadcrumb-board_de/tree/main/mechanical))
+- **PCB Qty:** Gib die benötigte Menge ein (*Hinweis:* Je mehr PCBs du bestellst, desto günstiger werden sie pro Einheit)
 - **Product Type:** Industrial/Consumer electronics
 
 #### PCB Specifications
 
 - **Different Design:** 1
 - **Delivery Format:** Single PCB
-- **PCB Thickness:** 1.6mm is preferred but thicker or thinner PCBs can be chosen if needed
-- **PCB Color:** the color you like most
-- **Silkscreen:** (gets chosen automatically)
-- **Surface Finish:** HASL(with lead) or LeadFree HASL (LeadFree is recommended for less toxins)
+- **PCB Thickness:** 1.6mm wird bevorzugt, aber dickere oder dünnere PCBs können bei Bedarf gewählt werden
+- **PCB Color:** die Farbe, die dir am besten gefällt
+- **Silkscreen:** (wird automatisch gewählt)
+- **Surface Finish:** HASL(with lead) oder LeadFree HASL (LeadFree wird wegen geringerer Toxizität empfohlen)
 
 #### High-spec Options
 
@@ -44,8 +44,8 @@ The first few settings should be set automatically, check these because errors c
 
 #### Stencil
 
-As the PCB is only made for THT-components a Stecil is not needed.
+Da die PCB nur für THT-Bauteile ausgelegt ist, wird kein Stencil benötigt.
 
-## Mounting and Integration
+## Montage und Integration
 
-The Breadcrumb-Boards can be mounted to your project using M2-screws, the position of the holes can be found in [mechanical](https://github.com/kkitdesign/breadcrumb-board/tree/main/mechanical)
+Die Breadcrumb-Boards können mit M2-Schrauben an deinem Projekt befestigt werden. Die Position der Bohrungen findest du unter [mechanical](https://github.com/kkitdesign/breadcrumb-board_de/tree/main/mechanical).
